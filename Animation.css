@@ -1,9 +1,11 @@
 @keyframes carre{
   from {
   background-color: red;
+  transform: rotate(0deg);
   }
   to{
   background-color: blue;
+  transform: rotate(360deg);
   }
 }
 #anim {
